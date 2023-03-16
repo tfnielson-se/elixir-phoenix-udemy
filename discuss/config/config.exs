@@ -66,9 +66,7 @@ config :ueberauth, Ueberauth,
 
   config :ueberauth, Ueberauth.Strategy.Github.OAuth,
   client_id: System.get_env("GITHUB_CLIENT_ID"),
-  # client_id: "2121dd5213959ecd2d82",
   client_secret: System.get_env("GITHUB_CLIENT_SECRET")
-  # client_secret:  "4382a5a6f4a70671113b3d22ab201c4972e13670"
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
